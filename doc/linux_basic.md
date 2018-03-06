@@ -3,9 +3,10 @@ FILESYSTEM
 
 **LS**  
 
-```Lists the content of the current directory (or one that is specified). 
-Can be used with the -l flag to display additional information (permissions, owner, group, size, date and timestamp of last edit) 
-about each file and directory in a list format. The -a flag allows you to view files beginning with . (i.e. dotfiles).
+``` * Lists the content of the current directory (or one that is specified).  
+* Can be used with the **-l** flag to display additional information (permissions, owner, group, size, date and timestamp of last edit) 
+about each file and directory in a list format.  
+* The **-a** flag allows you to view files beginning with . (i.e. dotfiles).
 ```  
 
 **CD**  
@@ -29,14 +30,16 @@ about each file and directory in a list format. The -a flag allows you to view f
 **RM**  
 
 ```Removes the specified file (or recursively from a directory when used with -r).
-Be careful with this! Files deleted in this way are mostly gone for good!```  
+Be careful with this! Files deleted in this way are mostly gone for good!
+```  
 
 **CP**  
 
 ```Makes a copy of a file and places it at the specified location (essentially doing a 'copy-paste'), 
 for example - cp ~/fileA /home/otherUser/ would copy the file fileA from your home directory to that of the user otherUser 
 (assuming you have permission to copy it there!). This command can either take FILE FILE (cp fileA fileB), 
-FILE DIR (cp fileA /directoryB/) or -r DIR DIR (which recursively copies the contents of directories) as arguments```  
+FILE DIR (cp fileA /directoryB/) or -r DIR DIR (which recursively copies the contents of directories) as arguments
+```  
 
 **MV**  
 
