@@ -3,11 +3,10 @@ FILESYSTEM
 
 **LS**  
 
-``` * Lists the content of the current directory (or one that is specified).  
+> * Lists the content of the current directory (or one that is specified).  
 * Can be used with the **-l** flag to display additional information (permissions, owner, group, size, date and timestamp of last edit) 
 about each file and directory in a list format.  
 * The **-a** flag allows you to view files beginning with . (i.e. dotfiles).
-```  
 
 **CD**  
 
