@@ -47,6 +47,41 @@ On the Raspberry Pi website they created 2 images that could be installed easily
    |**USB Ports**| 2 on Model B	| 4 | 4|
    |**WiFi**| No built-in wifi| No built-in wifi| 802.11n and Bluetooth 4.1|  
    
+## Latest release of Raspberry Pi 3 B+ 
+
+<p align="center"> 
+<img src="g">
+</p>
+
+
+The Raspberry Pi 3 Model B+ is the latest product in the Raspberry Pi 3 range. In celebration of Pi Day 2018, the Raspberry Pi foundation has announced the Raspberry Pi 3 Model B+, the Pi 3 Model B+ packs a **1.4GHz 64-bit quad-core ARM Cortex A53 CPU made by Broadcom, dual-band 802.11ac wireless LAN support, Bluetooth 4.2 connectivity, and Gigabit Ethernet support over USB 2.0 connectivity (that’s up to 300Mbps).**  
+
+The Pi 3 Model B+ is faster, but also consumes more power and might overheat during resource intensive tasks. That means its chip will be throttled above 70°C:  
+
+< Below 70°C, we use the improvements to increase the core frequency to 1.4GHz. Above 70°C, we drop to 1.2GHz, and use the improvements to decrease the core voltage, increasing the period of time before we reach our 80°C thermal throttle; the reduction in power consumption is such that many use cases will never reach the throttle. Like a modern smartphone, we treat the thermal mass of the device as a resource, to be spent carefully with the goal of optimizing user experience.  
+
+That said, the foundation says the Pi 3 Model B+ can sustain high performance for much longer periods than its predecessors. Adding a cooling fan on the back is apparently supported:
+
+<p align="center"> 
+<img src="">
+</p>
+
+### Specifications
+
+* Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz  
+* 1GB LPDDR2 SDRAM  
+* 2.4GHz and 5GHz IEEE 802.11.b/g/n/ac wireless LAN, Bluetooth 4.2, BLE  
+* Gigabit Ethernet over USB 2.0 (maximum throughput 300 Mbps)  
+* Extended 40-pin GPIO header  
+* Full-size HDMI  
+* 4 USB 2.0 ports  
+* CSI camera port for connecting a Raspberry Pi camera  
+* DSI display port for connecting a Raspberry Pi touchscreen display  
+* 4-pole stereo output and composite video port  
+* Micro SD port for loading your operating system and storing data  
+* 5V/2.5A DC power input  
+* Power-over-Ethernet (PoE) support (requires separate PoE HAT)  
+   
 ### Raspberry Pi B+ model has some additional features
 
 1.) **More GPIO**: The GPIO header has grown to 40 pins, while retaining the same pinout for the first 26 pins as the Model B.  
